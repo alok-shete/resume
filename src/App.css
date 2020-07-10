@@ -1,0 +1,197 @@
+body {
+  background-color: #292727;
+  overflow-x: hidden;
+}
+.container-fluid {
+  padding: 7px !important;
+}
+nav {
+  background-color: #181818 !important;
+}
+
+.bodyTag {
+  padding-top: 40px !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.logo {
+  padding-left: 8px;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #08fdd8;
+  font-size: 40px;
+  width: 50px;
+  font-weight: bold;
+  text-shadow: 4px 0px #fc0b56;
+}
+
+.bigLogoDiv {
+  padding-right: 40px;
+}
+
+.bigLogo {
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.bigLogo:hover {
+  transition: transform 0.5s ease;
+}
+
+.icons {
+  font-size: 24px;
+  color: #666;
+}
+
+.icons:hover {
+  color: #00fff7;
+}
+
+.iconsMenu {
+  padding-top: 14px;
+  padding-right: 10px;
+  font-size: 30px;
+  color: #666;
+}
+
+.a {
+  color: #00fff7;
+}
+
+.iconsMenu:hover {
+  color: #00fff7;
+}
+
+.iconDiv {
+  width: 24px;
+  padding-top: 10px;
+}
+
+.iconDiv:hover {
+  padding-top: 17px;
+}
+/* home icon */
+
+#homeA:hover span {
+  display: none;
+}
+#homeA:hover:before {
+  font-size: 15px;
+  color: #00fff7;
+  content: "Home";
+}
+
+/* about icon */
+
+#aboutA:hover span {
+  display: none;
+}
+#aboutA:hover:before {
+  font-size: 15px;
+  color: #00fff7;
+  content: "About";
+}
+
+/* skills icon */
+
+#skillsA:hover span {
+  display: none;
+}
+#skillsA:hover:before {
+  font-size: 15px;
+  color: #00fff7;
+  content: "Skills";
+}
+/* work icon */
+
+#workA:hover span {
+  display: none;
+}
+#workA:hover:before {
+  font-size: 15px;
+  color: #00fff7;
+  content: "Work";
+}
+
+/* contact icon */
+
+#contactA:hover span {
+  display: none;
+}
+#contactA:hover:before {
+  font-size: 15px;
+  color: #00fff7;
+  content: "Contact";
+}
+
+/* tags  */
+.tags {
+  font-family: sofia;
+  font-size: 20px;
+  color: #808080;
+}
+/*h1*/
+
+.content {
+  color: #fff;
+}
+
+.text {
+  color: #fff;
+  font-size: 35px;
+
+  text-transform: uppercase;
+  text-decoration: none;
+
+  display: inline-block;
+  position: relative;
+}
+.text:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: -1;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #00fff7;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.text:hover {
+  color: #fff;
+}
+.text:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.contentText {
+  color: #666;
+}
+
+/* contact me button */
+
+.btn:focus,
+.btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.btn-outline-success {
+  border-color: #00fff7 !important;
+  color: #00fff7 !important;
+}
+
+.btn-outline-success:hover {
+  background-color: #00fff7 !important;
+  color: black !important;
+}
+
+/*frame */
+
+.frame {
+  overflow: hidden;
+  border-radius: 0px;
+}
