@@ -9,12 +9,14 @@ import "jquery/dist/jquery.min.js";
 import "bootstrap/dist/js/bootstrap.min.js";
 import "./App.css";
 import cx from "classnames";
+import { Router, Route, Link, browserHistory, IndexRoute } from "react-router";
 
 const App = () => {
   const [tab, setTab] = useState("1");
   const tabs = (no) => {
     setTab(no);
   };
+
   return (
     <>
       <div className="container-fluid">
